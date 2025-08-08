@@ -15,7 +15,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![](./images/screenshot.png)
+![](./assets/images/screenshot1.png)
+![](./assets/images/screenshot2.png)
 
 ## My process
 
