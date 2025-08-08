@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="preload"
+			href="./assets/fonts/Figtree-VariableFont_wght.ttf"
+			as="font"
+			type="font/ttf"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./assets/images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="./output.css" />
+
+		<title>Frontend Mentor | Blog preview card</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body class="bg-[hsl(47,88%,63%)] font-display">
+		<main>
+			<h1 class="text-3xl text-center">Blog Preview Card</h1>
+			<div class="flex justify-center items-center h-[90vh]">
+				<div
+					class="bg-[hsl(0,0%,100%)] w-xs flex flex-col items-start p-4 rounded-2xl gap-3.5 shadow-[6px_6px_0px_black]"
+				>
+					<img
+						src="./assets/images/illustration-article.svg"
+						alt="Illustration representing an article about HTML and CSS"
+						class="rounded-xl"
+					/>
+					<span
+						class="bg-[hsl(47,88%,63%)] px-3 py-1 rounded font-bold text-sm"
+					>
+						Learning
+					</span>
+					<div class="text-gray-950 text-sm">
+						Published 21 Dec 2023
+					</div>
+					<div
+						class="font-bold text-lg hover:text-[hsl(47,88%,63%)] cursor-pointer transition-colors ease-in-out duration-150"
+					>
+						HTML & CSS foundations
+					</div>
+					<div class="text-sm text-gray-700">
+						These languages are the backbone of every website,
+						defining structure, content, and presentation.
+					</div>
+					<div class="py-1 flex items-center gap-2 font-bold text-sm">
+						<img
+							src="./assets/images/image-avatar.webp"
+							alt="Photo of Greg Hooper"
+							class="w-6"
+						/>
+						Greg Hooper
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<div class="attribution">
+			Challenge by
+			<a
+				href="https://www.frontendmentor.io?ref=challenge"
+				target="_blank"
+				>Frontend Mentor</a
+			>. Coded by
+			<a href="https://www.frontendmentor.io/profile/0Juice">Ojuice</a>.
+		</div>
+	</body>
+</html>
